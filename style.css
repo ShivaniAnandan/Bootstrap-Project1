@@ -1,0 +1,46 @@
+.premium{
+    position: absolute;
+    bottom:90px;
+    left: 10px;
+}
+
+.fa{
+    color: blue;
+    text-align: center;
+}
+.progress-bar{
+    border: 1px solid red;
+}
+.progress{
+    width: 300px;
+}
+
+img{
+    width: 80px;
+}
+.skills{
+    width: 40%;
+    
+} 
+.skillset{
+    margin-left: 300px;
+    display: flex;
+    /* width: 500px; */
+    justify-content:center;
+    align-items: center;
+}
+.contact{
+    width: 60%;
+}
+.button-flex{
+    display: flex;
+    justify-content: center;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .skills{
+        width: 80%;
+        
+    } 
+  }
